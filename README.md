@@ -1,3 +1,3 @@
 # FPGA-Accelerated Histogram of Gradients for Human Detection
 
-[Read the full report here](HOG-for-Human-Detection.pdf)
+This is a project using the Histogram of Gradients algorithm for lightweight human detection on FPGA: [Read the full report here](HOG-for-Human-Detection.pdf)
