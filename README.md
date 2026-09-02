@@ -12,9 +12,9 @@ The design focused on demonstrating the performance benefits of moving computati
 
 The original FPGA accelerator was later incorporated into a complete wireless human-detection system consisting of:
 
-- **Raspberry Pi Zero 2 W + Pi Camera** — captures live video and wirelessly transmits image frames.
-- **ESP32 receiver** — receives image data over Wi-Fi and transfers it to the FPGA using a custom SPI communication interface.
-- **Xilinx Zynq FPGA** — receives and stores incoming frames, executes the HOG feature-extraction accelerator, and performs classification using an HLS-accelerated SVM.
+- **Raspberry Pi Zero 2 W + Pi Camera** - captures live video and wirelessly transmits image frames.
+- **ESP32 receiver** - receives image data over Wi-Fi and transfers it to the FPGA using a custom SPI communication interface.
+- **Xilinx Zynq FPGA** - receives and stores incoming frames, executes the HOG feature-extraction accelerator, and performs classification using an HLS-accelerated SVM.
 
 This extension transformed the original standalone accelerator into an end-to-end embedded vision system capable of processing live camera input.
 
