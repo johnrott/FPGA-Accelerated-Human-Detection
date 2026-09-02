@@ -20,7 +20,7 @@ This extension transformed the original standalone accelerator into an end-to-en
 
 ## System Architecture
 
-Raspberry Pi Camera → Raspberry Pi Zero 2 W → Wi-Fi → ESP32 → SPI → FPGA → HOG → SVM → Detection
+Raspberry Pi Camera - Raspberry Pi Zero 2 W - Wi-Fi - ESP32 - SPI - FPGA - HOG - SVM - Detection
 
 ## Results
 
